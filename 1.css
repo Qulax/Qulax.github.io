@@ -32,7 +32,7 @@ color: #720000;
 font-family: Trebuchet MS, Arial, Times New Roman;
 font-size: 20px;
 }
-h2 { text-align: left }
+h2 { text-align: center }
 .text  {
   margin-left: 10px;
 }
@@ -40,14 +40,14 @@ h2 { text-align: left }
   float: left;
 
 }
-h3 { text-align: left }
+h3 { text-align: center }
 .text1  {
   margin-left: 10px;
 }
 .class1 {
   float: left;
 }
-h4 { text-align: left }
+h4 { text-align: center }
 .text2  {
   margin-left: 10px;
 }
@@ -56,7 +56,7 @@ h4 { text-align: left }
   width: 400px;
   height: 400px;
 }
-h5 { text-align: left }
+h5 { text-align: center }
 .text3  {
   margin-left: 10px;
 }
