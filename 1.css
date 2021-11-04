@@ -40,10 +40,30 @@ h2 { text-align: left }
   float: left;
 
 }
-h3 { text-align: center }
-.image-center {
-display:block;
-margin: auto;
+h3 { text-align: left }
+.text1  {
+  margin-left: 10px;
+}
+.class1 {
+  float: left;
+}
+h4 { text-align: left }
+.text2  {
+  margin-left: 10px;
+}
+.class2 {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+h5 { text-align: left }
+.text3  {
+  margin-left: 10px;
+}
+.class3 {
+  float: left;
+  width: 400px;
+  height: 400px;
 }
 #footer {
 
