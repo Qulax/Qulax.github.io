@@ -6,6 +6,7 @@ background: #808080;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
 font-size: 1920px;
+width: 1920px;
 }
 #wrapper {
       background: #FFFFFF;
@@ -28,7 +29,7 @@ font-size: 1920px;
       }
 #navigation {
   background: #2a2a2a2a;
-  width: 400px;
+  width: 700px;
   height: 40px;
   background-image: url(img/ooo.gif);
   background-size: 1000px 19px;
