@@ -1,7 +1,7 @@
 @media (min-width: 320x) and (max-width: 1920px)
 .container { width: 1920px }
 body {
-width:1920px;
+max-width: 1920x;
 background: #808080;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
