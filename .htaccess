@@ -1,7 +1,0 @@
-DirectoryIndex index.html
-RewriteEngine
-OnRewriteBase
-/RewriteCond %{HTTP:X-HTTPS}
-!1RewriteCond %{HTTP_HOST} ^example\.ru$RewriteRule ^(.*)$ https://nioh1337.github.io/$1 [R=301,L]
-ErrorDocument 404
-http://https://nioh1337.github.io/istoriya-gitary/404.html
