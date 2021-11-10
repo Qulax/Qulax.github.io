@@ -1,18 +1,16 @@
-@media (min-width: 320x) and (max-width: 1920px)
-.container { width: 1920px }
+.container { width: 240px }
 body {
-max-width: 1920x;
+width:1740px;
 background: #808080;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
-font-size: 1920px;
-width: 1920px;
+font-size: 12px;
 }
 #wrapper {
       background: #FFFFFF;
       margin: 60px auto;
-      width: 1920px;
-      height: 1080px;
+      width: 1600px;
+      height: 900px;
       }
 #header {
 
@@ -29,7 +27,7 @@ width: 1920px;
       }
 #navigation {
   background: #2a2a2a2a;
-  width: 700px;
+  width: 389px;
   height: 40px;
   background-image: url(img/ooo.gif);
   background-size: 1000px 19px;
@@ -41,7 +39,6 @@ width: 1920px;
   background: #808080;
   color: #720000;
   font-family: Trebuchet MS, Arial, Times New Roman;
-  width:1920px;
   font-size: 20px;
       }
       h3 { text-align: center }
