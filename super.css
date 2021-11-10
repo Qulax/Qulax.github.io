@@ -1,5 +1,5 @@
 body {
-width:1740px;
+width:1742px;
 background: #808080;
 color: #000000;
 font-family: Trebuchet MS, Arial, Times New Roman;
@@ -50,3 +50,4 @@ font-size: 12px;
 
       }
 .topic { font size="12" color="#720000" face="serif"; }
+@media (min-width: 320px) and (max-width: 1742px)
