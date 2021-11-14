@@ -1,53 +1,114 @@
 body {
-width:1742px;
-background: #808080;
-color: #000000;
-font-family: Trebuchet MS, Arial, Times New Roman;
-font-size: 12px;
+    background: #80808000;
+    color: #00000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+    background-image: url(img/music-guitar-main.jpg);
 }
+
 #wrapper {
-      background: #FFFFFF;
-      margin: 60px auto;
-      width: 1600px;
-      height: 900px;
-      }
-#header {
-
-      }
-      image {
-      position	: relative;
-      width		: 100%;
-      }
-      h1 {
-      position	: absolute;
-      top		: 200px;
-      left		: 10%;
-      width		: 100%;
-      }
-#navigation {
-  background: #2a2a2a2a;
-  width: 389px;
-  height: 40px;
-  background-image: url(img/ooo.gif);
-  background-size: 1000px 19px;
-      }
-#menu {
-
-      }
-#content {
-  background: #808080;
-  color: #720000;
-  font-family: Trebuchet MS, Arial, Times New Roman;
-  font-size: 20px;
-      }
-      h3 { text-align: center }
-      h4 { text-align: center }
-.image-center {
-  display:block;
-  margin: auto;
+    background: #ffffff00;
+    margin: 60px auto;
+    height: 900px;
 }
-#footer {
 
-      }
-.topic { font size="12" color="#720000" face="serif"; }
-@media (min-width: 320px) and (max-width: 1742px)
+#header {
+    position: absolute;
+    left: 460px;
+    width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+}
+
+#navigation {
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+    background-color: rgba(129, 129, 129, 0);
+
+
+}
+
+#content {
+    color: rgb(126, 25, 30);
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 20px;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    margin-top: 1000px;
+}
+
+h4 {
+    position: relative;
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 50px;
+    top: 430px;
+    line-height: 20px;
+}
+h5  {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.image-center {
+    position: absolute;
+    left: 5px;
+    top: 2320px;
+}
+.ssilka1 {
+    text-decoration: none;
+}
+#videoPlayer {
+    position: absolute;
+    left: 25%;
+    top: 1700px;
+}
+#Pazzl {
+    position: absolute;
+    left: 30px;
+    top: 2700px;
+}
+.buttonGuitarPlayer {
+    position: absolute;
+	display: inline-block;
+	height: 84px;
+	width: 314px;
+	background: url(img/button_dark_537_1.jpg) 0 0 no-repeat;
+	transition: background 0.3s ease;
+    left: 537px;
+    top: 0px;
+}
+
+.buttonGuitarPlayer:hover {
+	background-image: url(img/button_dark_537.jpg);
+}
+.buttonViduguitar {
+    position: absolute;
+	display: inline-block;
+	height: 84px;
+	width: 314px;
+	background: url(img/button_dark_851.jpg) 0 0 no-repeat;
+	transition: background 0.3s ease;
+    left: 851px;
+    top: 0px;
+}
+
+.buttonViduguitar:hover {
+	background-image: url(img/button_dark_851_1.jpg);
+}
+.s04h {
+    position: absolute;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 140px;
+    margin-top: 150px;
+}

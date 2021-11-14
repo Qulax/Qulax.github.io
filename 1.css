@@ -1,71 +1,128 @@
-.container { width: 240px }
-body {
-width:1740px;
-background: #808080;
-color: #000000;
-font-family: Trebuchet MS, Arial, Times New Roman;
-font-size: 12px;
+.container {
+    width: 240px
 }
-#wrapper {
-      background: #FFFFFF;
-      margin: 60px auto;
-      width: 1600px;
-      height: 900px;
-      }
-#header {
 
-      }
-      image {
-      position	: relative;
-      width		: 100%;
-      }
-      h1 {
-      position	: absolute;
-      top		: 200px;
-      left		: 10%;
-      width		: 100%;
-      }
+body {
+    background: #80808000;
+    color: #d67213;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+    background-image: url(img/music-guitar-main.jpg);
+}
+
+#wrapper {
+    background: #ffffff00;
+    margin: 60px auto;
+    height: 900px;
+}
+
+#ViduguitarHeader {
+    width: 90%;
+}
+
+image {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
 
 #content {
-background: #808080;
-color: #720000;
-font-family: Trebuchet MS, Arial, Times New Roman;
-font-size: 20px;
+    color: rgb(126, 25, 30);
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 20px;
 }
-h2 { text-align: center }
-.text  {
-  margin-left: 10px;
+
+h2 {
+    text-align: center
 }
+
+.text {
+    margin-left: 10px;
+}
+
 .class {
-  float: left;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
 
+h3 {
+    text-align: center
 }
-h3 { text-align: center }
-.text1  {
-  margin-left: 10px;
+
+.text1 {
+    margin-left: 10px;
 }
+
 .class1 {
-  float: left;
+    float: left;
+    width: 400px;
+    height: 400px;
 }
-h4 { text-align: center }
-.text2  {
-  margin-left: 10px;
-}
-.class2 {
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-h5 { text-align: center }
-.text3  {
-  margin-left: 10px;
-}
-.class3 {
-  float: left;
-  width: 400px;
-  height: 400px;
-}
-#footer {
 
-      }
-.topic { font size="12" color="#720000" face="serif"; }
+h4 {
+    text-align: center
+}
+
+.text2 {
+    margin-left: 10px;
+}
+
+.class2 {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+h5 {
+    text-align: center
+}
+
+.text3 {
+    margin-left: 10px;
+}
+
+.class3 {
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+#navigation {
+    background: #ffffff00;
+    position: absolute;
+    top: 500px;
+    left: 700px;
+}
+.buttonGuitarPlayer {
+    position: absolute;
+	display: inline-block;
+	height: 84px;
+	width: 314px;
+	background: url(img/button_dark_537_1.jpg) 0 0 no-repeat;
+	transition: background 0.3s ease;
+    left: 537px;
+    top: 0px;
+}
+ 
+.buttonGuitarPlayer:hover {
+	background-image: url(img/button_dark_537.jpg);
+}
+.buttonViduguitar {
+    position: absolute;
+	display: inline-block;
+	height: 84px;
+	width: 314px;
+	background: url(img/button_dark_851.jpg) 0 0 no-repeat;
+	transition: background 0.3s ease;
+    left: 851px;
+    top: 0px;
+}
+ 
+.buttonViduguitar:hover {
+	background-image: url(img/button_dark_851_1.jpg);
+}

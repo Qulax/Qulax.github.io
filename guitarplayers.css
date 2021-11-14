@@ -1,43 +1,33 @@
-.container { width: 240px }
+.container { width: 24px }
 body 
 {
-    width:1740px;
     background: #52525200;
     color: #000000;
     font-family: Trebuchet MS, Arial, Times New Roman;
     font-size: 12px;
     background-image: url(img/прикол\ 32к.jpg);
-    background-size: 2000px 6000px;
+    background-size: 2000px 2374px;
 }
-#header h1
+#PopularG h1
 {
     position	: absolute;
     top		    : 150px;
     left		: 675px;
-    width		: 100%;
 }
-#navigation 
+#GoIntoGuitarPlayerToMain 
 {
     background: #ffffff00;
     position: absolute;
     top: 300px;
     left: 692px;
 }
-#menu h2
+#PopularGuitaristsList h2
 {
     position: absolute;
     top: 400px;
     left: 200px;
-    width: 500%;
 }
-#content 
-{
-    background: #80808000;
-    color: #ffae00;
-    font-family: Trebuchet MS, Arial, Times New Roman;
-    font-size: 20px;
-}
-#autors
+#autors9
 {
     position: absolute;
     top: 540px;
