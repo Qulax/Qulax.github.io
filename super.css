@@ -1,0 +1,446 @@
+body {
+    background: #80808000;
+    color: #00000000;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 12px;
+    background-image: url(img/music-guitar-main.jpg);
+}
+
+#wrapper {
+    background: #ffffff00;
+    margin: 60px auto;
+    height: 900px;
+}
+
+#header {
+    position: absolute;
+    left: 460px;
+    width: 1000px;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding-top: 400px;
+}
+
+#navigation {
+    position: absolute;
+    left: 1500px;
+    top: 20px;
+    background-color: rgba(129, 129, 129, 0);
+}
+
+#content {
+    color: rgb(126, 25, 30);
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 20px;
+}
+
+h3 {
+    position: relative;
+    text-align: center;
+    margin-top: 1000px;
+}
+
+h4 {
+    position: relative;
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 50px;
+    top: 430px;
+    line-height: 20px;
+}
+
+h5 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.image-center {
+    position: absolute;
+    left: 5px;
+    top: 2320px;
+}
+
+.ssilka1 {
+    text-decoration: none;
+}
+
+#videoPlayer {
+    position: absolute;
+    left: 25%;
+    top: 1700px;
+}
+
+#Pazzl {
+    position: absolute;
+    left: 30px;
+    top: 2700px;
+}
+
+.buttonGuitarPlayer {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 314px;
+    background: url(img/button_dark_537_1.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 537px;
+    top: 0px;
+}
+
+.buttonGuitarPlayer:hover {
+    background-image: url(img/button_dark_537.jpg);
+}
+
+.buttonViduguitar {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 314px;
+    background: url(img/button_dark_851.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 851px;
+    top: 0px;
+}
+
+.buttonViduguitar:hover {
+    background-image: url(img/button_dark_851_1.jpg);
+}
+
+.buttonTop1000Cheeze {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 169px;
+    background: url(img/button_dark_1089.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 1089px;
+    top: 0px;
+}
+
+.buttonTop1000Cheeze:hover {
+    background-image: url(img/button_dark_1089_1.jpg);
+}
+
+.buttonGOtomain {
+    position: absolute;
+    display: inline-block;
+    height: 84px;
+    width: 169px;
+    background: url(img/button_dark_main.jpg) 0 0 no-repeat;
+    transition: background 0.3s ease;
+    left: 0px;
+    top: 0px;
+}
+
+.buttonGOtomain:hover {
+    background-image: url(img/button_dark_main_1.jpg);
+}
+
+.s04h {
+    position: absolute;
+    font-family: Trebuchet MS, Arial, Times New Roman;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 140px;
+    margin-top: 150px;
+}
+
+h7
+{
+    color: rgb(248, 132, 24);
+    font-size: 36px;
+    font-style: normal;
+    padding-top: 450px;
+    display: block;
+    text-align: center;
+}
+
+#description1
+{
+    color: rgb(245, 161, 83);
+    font-size: 36px;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    padding-top: 600px;
+}
+
+.mini_description1
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 70px;
+}
+
+.list1
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.span1_list1
+{
+    font-size: 50px;
+    color: rgb(238, 70, 70);
+}
+.span2_list1
+{
+    font-size: 28px;
+    color: rgb(245, 161, 83);
+}
+
+.list2
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.span1_list2
+{
+    font-size: 50px;
+    color: rgb(238, 70, 70);
+}
+.span2_list2
+{
+    font-size: 28px;
+    color: rgb(245, 161, 83);
+}
+
+.list3
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.span1_list3
+{
+    font-size: 50px;
+    color: rgb(238, 70, 70);
+}
+.span2_list3
+{
+    font-size: 28px;
+    color: rgb(245, 161, 83);
+}
+
+.list4
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.span1_list4
+{
+    font-size: 50px;
+    color: rgb(238, 70, 70);
+}
+.span2_list4
+{
+    font-size: 28px;
+    color: rgb(245, 161, 83);
+}
+
+#top5G
+{
+    color: rgb(245, 161, 83);
+    font-size: 36px;
+    font-style: normal;
+    display: block;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.top1
+{
+    color: rgb(243, 88, 41);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 80px;
+    text-align: center;
+}
+.top1_d
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 360px;
+}
+#itop1
+{
+    text-align: left;
+    height: 150px;
+}
+
+/* ===================== */
+
+.top2
+{
+    color: rgb(243, 88, 41);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 250px;
+    padding-left: 80px;
+    text-align: center;
+}
+.top2_d
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 360px;
+}
+#itop2
+{
+    text-align: left;
+    height: 150px;
+}
+
+/* ===================== */
+
+.top3
+{
+    color: rgb(243, 88, 41);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 250px;
+    padding-left: 80px;
+    text-align: center;
+}
+.top3_d
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 360px;
+}
+#itop3
+{
+    text-align: left;
+    height: 150px;
+}
+
+/* ===================== */
+
+.top4
+{
+    color: rgb(243, 88, 41);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 250px;
+    padding-left: 80px;
+    text-align: center;
+}
+.top4_d
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 360px;
+}
+#itop4
+{
+    text-align: left;
+    height: 150px;
+}
+
+/* ===================== */
+
+.top5
+{
+    color: rgb(243, 88, 41);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 250px;
+    padding-left: 80px;
+    text-align: center;
+}
+.top5_d
+{
+    color: rgb(250, 201, 154);
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 50px;
+    padding-left: 360px;
+}
+#itop5
+{
+    text-align: left;
+    height: 150px;
+}
